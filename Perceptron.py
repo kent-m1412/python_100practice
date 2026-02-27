@@ -1,42 +1,15 @@
-import numpy as np
-
-def AND(x1, x2):
-    x = np.array([x1, x2])
-    w = np.array([0.5,0.5])
-    b = -0.7
-    temp = np.sum(x*w) + b
-    if temp <= 0:
-        return 0
-    elif temp > 0:
-        return 1
-
-def NAND(x1, x2):
-    x = np.array([x1, x2])
-    w = np.array([-0.5,-0.5])
-    b = 0.7
-    temp = np.sum(x*w) + b
-    if temp <= 0:
-        return 0
-    elif temp > 0:
-        return 1
-
-def OR(x1, x2):
-    x = np.array([x1, x2])
-    w = np.array([1.0,1.0])
-    b = -0.7
-    temp = np.sum(x*w) + b
-    if temp <= 0:
-        return 0
-    elif temp > 0:
-        return 1
-
-def XOR(x1, x2):
-    temp1 = OR(x1,x2)
-    temp2 = NAND(x1,x2)
-    temp3 = AND(temp1,temp2)
-    return temp3
-
-print(XOR(0,0))
-print(XOR(0,1))
-print(XOR(1,0))
-print(XOR(1,1))
+from turtle import *
+from colorsys import *
+speed(0)
+bgcolor("black")
+h=0
+for i in range(75):
+    color(hsv_to_rgb(h,1,1,))
+    h += 0.014
+    left(1)
+    forward(1)
+    for j in range(2):
+        left(2)
+        circle(140)
+    hideturtle()
+done()

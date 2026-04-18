@@ -1,9 +1,19 @@
-#Python100本ノック
+# Python 100 Practice
 
-##概要
-プログラミング初心者がPythonの基礎を習得するために、100本ノックに挑戦している記録です。
+## Overview
+I am a university student majoring in Mechanical Engineering, currently transitioning into Information Science. This repository is dedicated to my daily practice of "Python 100 Practice" to build a solid foundation in programming.
 
-##学習環境
-- 言語: Python
-- エディタ: Pycharm
-- OS: Windows
+## Tech Stack
+- **Language:** Python
+- **IDE:** PyCharm
+- **OS:** Windows 11
+
+## Progress
+- [x] Basics (Problem 1-47)
+- [x] Intermediate (Problem 48-60)
+- [ ] Advanced (Problem 61-100)
+
+## Goals
+- Mastering Python fundamentals.
+- Transitioning smoothly to an Information Science research lab.
+- Working as a software engineer globally in the future.
